@@ -116,7 +116,7 @@ graph TD
     FE -->|GET /dictionary/lookup| BE
     BE -->|请求有道 API| Ext[外部词典 API]
     Ext -.->|返回释义| BE
-    BE -->|加入生词本 (POST /vocabulary)| DB
+    BE -->|"加入生词本 (POST /vocabulary)"| DB
 ```
 
 ## 5. 项目结构概览
