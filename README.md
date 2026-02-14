@@ -87,10 +87,10 @@
 ```mermaid
 graph TD
     User((用户))
-    FE[前端 (Vue 3 + Vite)]
-    BE[后端 (FastAPI)]
-    FS[文件系统 (cet6document)]
-    DB[(数据存储 JSON/MD)]
+    FE["前端 (Vue 3 + Vite)"]
+    BE["后端 (FastAPI)"]
+    FS["文件系统 (cet6document)"]
+    DB["(数据存储 JSON/MD)"]
 
     %% 真题阅读流程
     User -->|1. 选择真题| FE
