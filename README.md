@@ -25,6 +25,9 @@
    ```
 2. 安装依赖：
    ```bash
+   # 建议conda先创建一个环境
+   # conda create -n cet6web python==3.10 -y
+   # conda activate cet6web
    pip install -r requirements.txt
    ```
 3. 启动服务：
